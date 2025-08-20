@@ -7,9 +7,15 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier '**/*.{cjs,mjs,ts,tsx,md,mdx,json,astro}' --ignore-path ./.gitignore --ignore-unknown --write",
+    "format:check": "prettier '**/*.{cjs,mjs,ts,tsx,md,mdx,json,astro}' --ignore-path ./.gitignore --ignore-unknown --check"
   },
   "dependencies": {
     "astro": "^5.13.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
