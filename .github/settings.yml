@@ -1,6 +1,7 @@
 repository:
   name: www-xavwe-dev
   description: my website
+  homepage: https://www.xavwe.dev
   private: false
 
   has_issues: true
