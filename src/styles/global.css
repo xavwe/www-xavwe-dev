@@ -1,17 +1,7 @@
 :root {
-  /* Light Mode Colors (Default) */
+  /* light mode colors (default) */
   --color-background: white;
   --color-text: black;
-}
-
-html.light {
-  --color-background: white;
-  --color-text: black;
-}
-
-html.dark {
-  --color-background: black;
-  --color-text: white;
 }
 
 body {
@@ -24,18 +14,18 @@ body {
   flex-direction: column;
 }
 
+@media (max-width: 768px) {
+  body {
+    padding: 4rem 1.35rem 1.35rem 1.35rem;
+  }
+}
+
 main {
   flex: 1;
 }
 
 footer {
   margin-top: auto;
-}
-
-@media (max-width: 768px) {
-  body {
-    padding: 4rem 1.35rem 1.35rem 1.35rem;
-  }
 }
 
 a {
