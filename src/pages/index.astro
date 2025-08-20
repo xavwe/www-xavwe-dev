@@ -1,9 +1,10 @@
 ---
-import '../styles/global.css';
+import "../styles/global.css";
 
-import Footer from '../components/Footer.astro';
-import Project from '../components/Project.astro';
+import Footer from "../components/Footer.astro";
+import Project from "../components/Project.astro";
 ---
+
 <style>
   ul {
     list-style: none;
@@ -11,30 +12,54 @@ import Project from '../components/Project.astro';
   }
 </style>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
     <main>
       <h1>Xaver Wenhart</h1>
       <p>Student &amp; Computer Science enthusiast</p>
       <h2>My Projects</h2>
       <ul>
-        <Project title="containerization" tag={["poc", "linux", "cpp"]} link="https://github.com/xavwe/containerization" />
-        <Project title="nerdfont icon picker" tag={["obsidian-plugin", "typescript"]} link="https://github.com/xavwe/obsidian-nerdfont-icon-picker" />
-        <Project title="nixos-config" tag={["nixos","home-manager", "dotfiles", "nix" ]} link="https://github.com/xavwe/dotfiles-nixos" />
-        <Project title="dev-templates" tag={["niox", "direnv", "nix-flake" ]} link="https://github.com/xavwe/dev-templates" />
+        <Project
+          title="containerization"
+          tag={["poc", "linux", "cpp"]}
+          link="https://github.com/xavwe/containerization"
+        />
+        <Project
+          title="nerdfont icon picker"
+          tag={["obsidian-plugin", "typescript"]}
+          link="https://github.com/xavwe/obsidian-nerdfont-icon-picker"
+        />
+        <Project
+          title="nixos-config"
+          tag={["nixos", "home-manager", "dotfiles", "nix"]}
+          link="https://github.com/xavwe/dotfiles-nixos"
+        />
+        <Project
+          title="dev-templates"
+          tag={["niox", "direnv", "nix-flake"]}
+          link="https://github.com/xavwe/dev-templates"
+        />
       </ul>
       <h2>OS Contributions</h2>
       <ul>
-        <Project title="nixos/nixpkgs" tag={[ "nixos", "nix" ]} link="https://github.com/nixos/nixpkgs" />
-        <Project title="rolv-apneseth/rofi-nerdy" tag={[ "rofi", "nerdfont", "rust" ]} link="https://github.com/rolv-apneseth/rofi-nerdy" />
+        <Project
+          title="nixos/nixpkgs"
+          tag={["nixos", "nix"]}
+          link="https://github.com/nixos/nixpkgs"
+        />
+        <Project
+          title="rolv-apneseth/rofi-nerdy"
+          tag={["rofi", "nerdfont", "rust"]}
+          link="https://github.com/rolv-apneseth/rofi-nerdy"
+        />
       </ul>
     </main>
-    <Footer>
-	</body>
+    <Footer />
+  </body>
 </html>

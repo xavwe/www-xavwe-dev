@@ -1,11 +1,12 @@
 ---
-import Tag from './Tag.astro';
+import Tag from "./Tag.astro";
 
 export interface Props {
   tag: Array<string>;
 }
 const { title, tag, link } = Astro.props;
 ---
+
 <!-- https://stackoverflow.com/questions/73297899/using-an-array-on-components-astro -->
 <style>
   a {
@@ -24,7 +25,7 @@ const { title, tag, link } = Astro.props;
     margin: 0px;
   }
   p {
-  padding: 0px;
+    padding: 0px;
     margin: 0px;
   }
   .tag-container {
@@ -53,14 +54,14 @@ const { title, tag, link } = Astro.props;
   }
 </style>
 
-  <li><a href={link}>
-  <div class="title-row">
-    <h3>{title}</h3>
-    <div class="divider"></div>
-  </div>
-  <div class="tag-container">
-    {tag.map((tag) => (
-      <Tag>{tag}</Tag>
-    ))}
-  </div>
-    </a></li>
+<li>
+  <a href={link}>
+    <div class="title-row">
+      <h3>{title}</h3>
+      <div class="divider"></div>
+    </div>
+    <div class="tag-container">
+      {tag.map((tag) => <Tag>{tag}</Tag>)}
+    </div>
+  </a>
+</li>
