@@ -1,0 +1,44 @@
+---
+import Tag from './Tag.astro';
+
+export interface Props {
+  tag: Array<string>;
+}
+const { title, tag, link } = Astro.props;
+---
+<!-- https://stackoverflow.com/questions/73297899/using-an-array-on-components-astro --!>
+<style>
+  a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .divider {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+    margin: 5px 10px 0px 10px;
+  }
+  h3 {
+    padding: 0px;
+    margin: 0px;
+  }
+  p {
+  padding: 0px;
+    margin: 0px;
+  }
+  .tag-container {
+    display: flex;
+    gap: 10px;
+  }
+</style>
+
+  <li><a href={link}>
+  <h3>{title}</h3>
+  <div class="divider"></div>
+  <div class="tag-container">
+    {tag.map((tag) => (
+      <Tag>{tag}</Tag>
+    ))}
+  </div>
+    </a></li>

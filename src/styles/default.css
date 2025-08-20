@@ -1,0 +1,44 @@
+:root {
+  /* Light Mode Colors (Default) */
+  --color-background: white;
+  --color-text: black;
+}
+
+html.light {
+  --color-background: white;
+  --color-text: black;
+}
+
+html.dark {
+  --color-background: black;
+  --color-text: white;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0px;
+  padding: 5rem 10rem 1rem 10rem;
+  min-height: calc(100svh - 6rem);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 4rem 1.35rem 1.35rem 1.35rem;
+  }
+}
+
+a {
+   text-decoration-line: none;
+   color: var(--color-text);
+}
