@@ -1,0 +1,23 @@
+---
+import Project from "../components/project.astro";
+---
+
+<style>
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+</style>
+<h2>OS Contributions</h2>
+<ul>
+  <Project
+    title="nixos/nixpkgs"
+    tag={["nixos", "nix"]}
+    link="https://github.com/nixos/nixpkgs"
+  />
+  <Project
+    title="rolv-apneseth/rofi-nerdy"
+    tag={["rofi", "nerdfont", "rust"]}
+    link="https://github.com/rolv-apneseth/rofi-nerdy"
+  />
+</ul>

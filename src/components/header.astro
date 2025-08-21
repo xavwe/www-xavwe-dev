@@ -1,0 +1,13 @@
+---
+const { active } = Astro.props;
+---
+
+<header style="display: flex; flex-direction: row; align-items: baseline;">
+  <h1 style="display: inline;"><a href="/">Xaver Wenhart</a></h1>
+  <nav style="padding-left: 15px;">
+    <a href="mailto:contact@xavwe.dev">contact</a> - <a
+      href="/cv"
+      style={active === "cv" ? "text-decoration: underline;" : ""}>cv</a
+    >
+  </nav>
+</header>

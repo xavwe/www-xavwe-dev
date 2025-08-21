@@ -6,6 +6,10 @@ import Footer from "../components/footer.astro";
 
 import Projects from "../sections/projects.astro";
 import Contributions from "../sections/contibutions.astro";
+import Languages from "../sections/languages.astro";
+import Education from "../sections/education.astro";
+import Internships from "../sections/internships.astro";
+import TechSkills from "../sections/tech-skills.astro";
 ---
 
 <style>
@@ -20,7 +24,7 @@ import Contributions from "../sections/contibutions.astro";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Xaver Wenhart</title>
+    <title>Xaver Wenhart - CV</title>
     <meta
       name="description"
       content="High School Student & Computer Science Enthusiast"
@@ -29,11 +33,18 @@ import Contributions from "../sections/contibutions.astro";
   </head>
   <body>
     <main>
-      <Header />
-      <p>High School Student &amp; Computer Science Enthusiast</p>
+      <Header active="cv" />
+      <p>
+        Location: Germany<br />Birthyear: 2008<br />Mail: contact(at)xavwe.dev
+      </p>
+      <Education/>
+      <Internships/>
       <Projects />
       <Contributions />
+      <TechSkills/>
+             <Languages />
+        <Footer />
+      </p>
     </main>
-    <Footer />
   </body>
 </html>

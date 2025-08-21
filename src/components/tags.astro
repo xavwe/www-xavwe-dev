@@ -1,0 +1,26 @@
+---
+import Tag from "./tag.astro";
+
+export interface Props {
+  tag: Array<string>;
+}
+const { tag } = Astro.props;
+---
+
+<style>
+  .tag-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 768px) {
+    .tag-container {
+      width: 100%;
+    }
+  }
+</style>
+
+<div class="tag-container">
+  {tag.map((tag) => <Tag>{tag}</Tag>)}
+</div>

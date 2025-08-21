@@ -1,0 +1,38 @@
+---
+import Project from "../components/project.astro";
+---
+
+<style>
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+</style>
+<h2>My Projects</h2>
+<ul>
+  <Project
+    title="containerization"
+    tag={["poc", "linux", "cpp"]}
+    link="https://github.com/xavwe/containerization"
+  />
+  <Project
+    title="nerdfont icon picker"
+    tag={["obsidian-plugin", "typescript"]}
+    link="https://github.com/xavwe/obsidian-nerdfont-icon-picker"
+  />
+  <Project
+    title="nixos config"
+    tag={["nixos", "home-manager", "dotfiles", "nix"]}
+    link="https://github.com/xavwe/dotfiles-nixos"
+  />
+  <Project
+    title="dev templates"
+    tag={["niox", "direnv", "nix-flake"]}
+    link="https://github.com/xavwe/dev-templates"
+  />
+  <Project
+    title="website"
+    tag={["astro", "html", "css"]}
+    link="https://github.com/xavwe/www-xavwe-dev"
+  />
+</ul>

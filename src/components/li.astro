@@ -1,10 +1,7 @@
 ---
-import Tag from "./Tag.astro";
+import Tag from "./tag.astro";
 
-export interface Props {
-  tag: Array<string>;
-}
-const { title, tag, link } = Astro.props;
+const { title, date, link, description } = Astro.props;
 ---
 
 <style>
@@ -60,7 +57,8 @@ const { title, tag, link } = Astro.props;
       <div class="divider"></div>
     </div>
     <div class="tag-container">
-      {tag.map((tag) => <Tag>{tag}</Tag>)}
+      {date}
     </div>
   </a>
+  <p><slot /></p>
 </li>
