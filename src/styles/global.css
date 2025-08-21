@@ -12,6 +12,7 @@ body {
   min-height: calc(100svh - 6rem);
   display: flex;
   flex-direction: column;
+  font-family: serif;
 }
 
 @media (max-width: 768px) {
@@ -44,23 +45,23 @@ a {
     break-before: auto;
     break-after: avoid;
   }
-  
+
   /* Prevent breaks within sections */
   h3, h4, h5, h6 {
     break-before: avoid;
     break-after: avoid;
   }
-  
+
   p, ul, ol, li, div {
     break-before: avoid;
     break-inside: avoid;
   }
-  
+
   /* Keep lists and their items together */
   ul, ol {
     break-inside: avoid;
   }
-  
+
   li {
     break-before: avoid;
     break-inside: avoid;
