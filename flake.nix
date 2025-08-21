@@ -15,6 +15,8 @@
         nodejs
         nodePackages.pnpm
 
+        typos
+
         nixd
         tree-sitter-grammars.tree-sitter-nix
       ];
