@@ -16,6 +16,7 @@
         nodePackages.pnpm
 
         nixd
+        tree-sitter-grammars.tree-sitter-nix
       ];
     };
   };
