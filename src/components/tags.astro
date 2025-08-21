@@ -10,8 +10,10 @@ const { tag } = Astro.props;
 <style>
   .tag-container {
     display: flex;
-    gap: 10px;
+    gap: 10px 10px;
+    row-gap: 5px;
     flex-wrap: wrap;
+    padding: 8px 0;
   }
 
   @media (max-width: 768px) {
