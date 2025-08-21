@@ -12,6 +12,7 @@
     "format:check": "prettier '**/*.{cjs,mjs,ts,tsx,md,mdx,json,astro}' --ignore-path ./.gitignore --ignore-unknown --check"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.5.0",
     "astro": "^5.13.2"
   },
   "devDependencies": {
