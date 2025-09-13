@@ -1,0 +1,57 @@
+  ┌─ xavwe.dev/cv ─────────────────────────────────────────────────────────────────────────┐
+  │                                                                                        │
+  │  # Xaver Wenhart - CV                                                                  │
+  │  Location: Germany                                                                     │
+  │  Birthyear: 2008                                                                       │
+  │                                                                                        │
+  │  ## Education                                                                          │
+  │  High School ─────────────────────────────────────────────────────── 2018 - today      │
+  │  Science and Technology                                                                │
+  │  English | Latin | Computer Science | Talented Students Programme                      │
+  │                                                                                        │
+  │  ## Internships                                                                        │
+  │  Dawonia Real Estate GmbH & Co. KG ─────────────────────────────────── March 2024      │
+  │  IT Specialist                                                                         │
+  │  Rohde & Schwarz GmbH & Co. KG ─────────────────────────────────────── March 2023      │
+  │  IT Specialist                                                                         │
+  │                                                                                        │
+  │  ## My Projects                                                                        │
+  │  containerization ───────────────────────────────────────────── #poc #linux #cpp  [1]  │
+  │  nerdfont icon picker ───────────────────────────── #obsidian─plugin #typescript  [2]  │
+  │  nixos config ────────────────────────────── #nixos #home-manager #dotfiles #nix  [3]  │
+  │  dev templates ───────────────────────────────────────── #nix #direnv #nix-flake  [4]  │
+  │  website ───────────────────────────────────────────────────── #astro #html #css  [5]  │
+  │                                                                                        │
+  │  ## OS Contributions                                                                   │
+  │  nixos/nixpkgs ───────────────────────────────────────────────────── #nixos #nix  [6]  │
+  │  rolv-apneseth/rofi-nerdy ──────────────────────────────── #rofi #nerdfont #rust  [7]  │
+  │                                                                                        │
+  │  ## Tech Skills                                                                        │
+  │  #nixos #nix #html #css #scss #javascript #typescript #linux #docker #podman           │
+  │  #astro #python #bash #traefik #grafana #prometheus #loki #vim #latex #markdown        │
+  │  #git #github #problem-solving #wordpress                                              │
+  │                                                                                        │
+  │  ## Languages                                                                          │
+  │  German ───────────────────────────────────────────────────── native proficiency       │
+  │  English ────────────────────────────────────── professional working proficiency       │
+  │  Latin ───────────────────────────────────────────────────── reading proficiency       │
+  │                                                                                        │
+  │                                  © 2025 Xaver Wenhart                                  │
+  │                                                                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────┘
+
+  Sitemap
+  [1]  https://github.com/xavwe/containerization
+  [2]  https://github.com/xavwe/obsidian-nerdfont-icon-picker
+  [3]  https://github.com/xavwe/dotfiles-nixos
+  [4]  https://github.com/xavwe/dev-templates
+  [5]  https://github.com/xavwe/www-xavwe-dev
+  [6]  https://github.com/nixos/nixpkgs
+  [7]  https://github.com/rolv-apneseth/rofi-nerdy
+
+  Legend
+  $ curl https://xavwe.dev            get homepage
+  $ curl https://xavwe.dev/cv         get this page
+
+  Contact
+  contact@xavwe.dev
